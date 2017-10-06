@@ -1,9 +1,10 @@
 #include <Arduino.h>
+#include "NumberDisplayer.h"
 
+NumberDisplayer numberDisplayer;
 void setup() {
-    // put your setup code here, to run once:
 }
 
 void loop() {
-    // put your main code here, to run repeatedly:
+  numberDisplayer.displayNumber(0, 1, 1, 1);
 }
