@@ -6,5 +6,5 @@ class NumberDisplayer {
 
 public:
   void setup();
-  void displayNumber(int digit1, int digit2, int digit3, int digit4);
+  void displayNumber(int digit4, int digit3, int digit2, int digit1);
 };
