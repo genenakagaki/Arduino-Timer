@@ -58,7 +58,7 @@ void displaySegmentOnAllDigits(int segment) {
   displaySegment(segment, digits[1], 3);
   displaySegment(segment, digits[2], 4);
   displaySegment(segment, digits[3], 5);
-  delay(1);
+  delay(2);
 }
 
 void NumberDisplayer::displayNumber(int digit4, int digit3, int digit2, int digit1) {
@@ -84,4 +84,5 @@ void NumberDisplayer::displayNumber(int digit4, int digit3, int digit2, int digi
   digitalWrite(3, LOW);
   digitalWrite(4, HIGH);
   digitalWrite(5, HIGH);
+  delay(2);
 }
